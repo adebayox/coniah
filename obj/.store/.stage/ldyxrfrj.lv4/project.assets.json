@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {},
+    "net7.0/any": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "dotnet-aspnet-codegenerator >= 7.0.6"
+    ]
+  },
+  "packageFolders": {
+    "/Users/mac/Projects/Invoice/Invoice/obj/.store/.stage/ldyxrfrj.lv4": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/var/folders/f3/4fmqr_hn7_q507dq3svssznc0000gn/T/f1e77988-6fb5-445b-aa33-5b87613d80de/restore.csproj",
+      "projectName": "restore",
+      "projectPath": "/var/folders/f3/4fmqr_hn7_q507dq3svssznc0000gn/T/f1e77988-6fb5-445b-aa33-5b87613d80de/restore.csproj",
+      "packagesPath": "/Users/mac/Projects/Invoice/Invoice/obj/.store/.stage/ldyxrfrj.lv4",
+      "outputPath": "/Users/mac/Projects/Invoice/Invoice/obj/.store/.stage/ldyxrfrj.lv4/",
+      "projectStyle": "DotnetToolReference",
+      "configFilePaths": [
+        "/Users/mac/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "dotnet-aspnet-codegenerator": {
+            "target": "Package",
+            "version": "[7.0.6, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "any": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'dotnet-aspnet-codegenerator.7.0.6' from 'https://api.nuget.org/v3-flatcontainer/dotnet-aspnet-codegenerator/7.0.6/dotnet-aspnet-codegenerator.7.0.6.nupkg'.\nnodename nor servname provided, or not known (api.nuget.org:443)\n  nodename nor servname provided, or not known"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'dotnet-aspnet-codegenerator' from remote source 'https://api.nuget.org/v3-flatcontainer/dotnet-aspnet-codegenerator/index.json'.",
+      "libraryId": "dotnet-aspnet-codegenerator"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'dotnet-aspnet-codegenerator' from remote source 'https://api.nuget.org/v3-flatcontainer/dotnet-aspnet-codegenerator/index.json'.",
+      "libraryId": "dotnet-aspnet-codegenerator"
+    },
+    {
+      "code": "NU1801",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Failed to retrieve information about 'dotnet-aspnet-codegenerator' from remote source 'https://api.nuget.org/v3-flatcontainer/dotnet-aspnet-codegenerator/index.json'.",
+      "libraryId": "dotnet-aspnet-codegenerator"
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package dotnet-aspnet-codegenerator. No packages exist with this id in source(s): nuget.org",
+      "libraryId": "dotnet-aspnet-codegenerator",
+      "targetGraphs": [
+        "net7.0",
+        "net7.0/any"
+      ]
+    }
+  ]
+}
